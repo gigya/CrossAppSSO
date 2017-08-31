@@ -48,9 +48,6 @@ KeychainHelper *keychainHelper;
 
 - (void)storeGigyaSessionForSSO:(NSString *)UID {
   [Gigya getSessionWithCompletionHandler:^(GSSession *_Nullable session) {
-    NSLog(@"%@-%@-%@-%@", session.token, session.secret, session.info,
-          session.lastLoginProvider);
-
     NSDictionary *sessionInfo = @{
       @"token" : session.token,
       @"secret" : session.secret,
