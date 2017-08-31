@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68136D2E1DD136B900FFAB93 /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68136D2C1DD136B900FFAB93 /* Gestures@2x.png */; };
+		68136D2F1DD136B900FFAB93 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68136D2D1DD136B900FFAB93 /* Players@2x.png */; };
+		68279E661E09719C0045A342 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68279E651E09719C0045A342 /* SystemConfiguration.framework */; };
+		68279E681E0971A20045A342 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68279E671E0971A20045A342 /* SafariServices.framework */; };
+		6854EEC31F583A3A000AD79D /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6854EEC21F583A3A000AD79D /* KeychainHelper.m */; };
+		68A133991E995475009F3A7F /* facebook-logo-png-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A133951E995475009F3A7F /* facebook-logo-png-20.png */; };
+		68A1339A1E995475009F3A7F /* linkedin2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A133961E995475009F3A7F /* linkedin2.png */; };
+		68A1339B1E995475009F3A7F /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A133971E995475009F3A7F /* twitter.png */; };
+		68A1339F1E995753009F3A7F /* google2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A1339E1E995753009F3A7F /* google2.png */; };
+		68A133A11E9959C4009F3A7F /* button_login2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A133A01E9959C4009F3A7F /* button_login2.png */; };
+		68A133A31E995DE4009F3A7F /* london.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68A133A21E995DE4009F3A7F /* london.jpg */; };
+		68A133A51E9972E9009F3A7F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A133A41E9972E9009F3A7F /* Accounts.framework */; };
+		68A133A71E9972F3009F3A7F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A133A61E9972F3009F3A7F /* Social.framework */; };
+		68A133AB1E998D6F009F3A7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A133AA1E998D6F009F3A7F /* Images.xcassets */; };
+		68C2141A1DCF5C3A00B001C5 /* G_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C214191DCF5C3A00B001C5 /* G_256.png */; };
+		68C2141E1DCF6AEC00B001C5 /* GigyaPluginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C2141D1DCF6AEC00B001C5 /* GigyaPluginViewController.m */; };
+		68C214211DCF6B9100B001C5 /* GigyaWebBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C214201DCF6B9100B001C5 /* GigyaWebBridgeViewController.m */; };
+		68C214271DCF6E9E00B001C5 /* LandingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C214261DCF6E9E00B001C5 /* LandingTabBarController.m */; };
+		68C2142A1DCF6F1E00B001C5 /* GigyaAccountManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C214291DCF6F1E00B001C5 /* GigyaAccountManagement.m */; };
+		68C2142D1DCF826600B001C5 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C2142C1DCF826600B001C5 /* ContentViewController.m */; };
+		68C214301DCFB48900B001C5 /* GigyaNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C2142F1DCFB48900B001C5 /* GigyaNativeViewController.m */; };
+		D7F4A7211CF49082001983FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F4A7201CF49082001983FD /* main.m */; };
+		D7F4A7241CF49082001983FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F4A7231CF49082001983FD /* AppDelegate.m */; };
+		D7F4A72A1CF49082001983FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F4A7281CF49082001983FD /* Main.storyboard */; };
+		D7F4A72F1CF49082001983FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F4A72D1CF49082001983FD /* LaunchScreen.storyboard */; };
+		D7F4A73A1CF49082001983FD /* MyGigyaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F4A7391CF49082001983FD /* MyGigyaTests.m */; };
+		D7F4A7451CF49083001983FD /* MyGigyaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F4A7441CF49083001983FD /* MyGigyaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7F4A7361CF49082001983FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F4A7141CF49082001983FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F4A71B1CF49082001983FD;
+			remoteInfo = MyGigya;
+		};
+		D7F4A7411CF49083001983FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F4A7141CF49082001983FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F4A71B1CF49082001983FD;
+			remoteInfo = MyGigya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68136D2C1DD136B900FFAB93 /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@2x.png"; sourceTree = "<group>"; };
+		68136D2D1DD136B900FFAB93 /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
+		68279E651E09719C0045A342 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		68279E671E0971A20045A342 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6854EEC11F583A3A000AD79D /* KeychainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainHelper.h; sourceTree = "<group>"; };
+		6854EEC21F583A3A000AD79D /* KeychainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainHelper.m; sourceTree = "<group>"; };
+		686934C21DC36B340000AE18 /* MyGigya.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyGigya.entitlements; sourceTree = "<group>"; };
+		68A133951E995475009F3A7F /* facebook-logo-png-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-logo-png-20.png"; sourceTree = "<group>"; };
+		68A133961E995475009F3A7F /* linkedin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin2.png; sourceTree = "<group>"; };
+		68A133971E995475009F3A7F /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		68A1339E1E995753009F3A7F /* google2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google2.png; sourceTree = "<group>"; };
+		68A133A01E9959C4009F3A7F /* button_login2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login2.png; sourceTree = "<group>"; };
+		68A133A21E995DE4009F3A7F /* london.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = london.jpg; sourceTree = "<group>"; };
+		68A133A41E9972E9009F3A7F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		68A133A61E9972F3009F3A7F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		68A133AA1E998D6F009F3A7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68C214191DCF5C3A00B001C5 /* G_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G_256.png; sourceTree = "<group>"; };
+		68C2141C1DCF6AEC00B001C5 /* GigyaPluginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GigyaPluginViewController.h; sourceTree = "<group>"; };
+		68C2141D1DCF6AEC00B001C5 /* GigyaPluginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GigyaPluginViewController.m; sourceTree = "<group>"; };
+		68C2141F1DCF6B9100B001C5 /* GigyaWebBridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GigyaWebBridgeViewController.h; sourceTree = "<group>"; };
+		68C214201DCF6B9100B001C5 /* GigyaWebBridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GigyaWebBridgeViewController.m; sourceTree = "<group>"; };
+		68C214251DCF6E9E00B001C5 /* LandingTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingTabBarController.h; sourceTree = "<group>"; };
+		68C214261DCF6E9E00B001C5 /* LandingTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingTabBarController.m; sourceTree = "<group>"; };
+		68C214281DCF6F1E00B001C5 /* GigyaAccountManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GigyaAccountManagement.h; sourceTree = "<group>"; };
+		68C214291DCF6F1E00B001C5 /* GigyaAccountManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GigyaAccountManagement.m; sourceTree = "<group>"; };
+		68C2142B1DCF826600B001C5 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		68C2142C1DCF826600B001C5 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		68C2142E1DCFB48900B001C5 /* GigyaNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GigyaNativeViewController.h; sourceTree = "<group>"; };
+		68C2142F1DCFB48900B001C5 /* GigyaNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GigyaNativeViewController.m; sourceTree = "<group>"; };
+		D7F4A71C1CF49082001983FD /* MyGigya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGigya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F4A7201CF49082001983FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7F4A7221CF49082001983FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7F4A7231CF49082001983FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7F4A7291CF49082001983FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7F4A72E1CF49082001983FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7F4A7301CF49082001983FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F4A7351CF49082001983FD /* MyGigyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGigyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F4A7391CF49082001983FD /* MyGigyaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGigyaTests.m; sourceTree = "<group>"; };
+		D7F4A73B1CF49082001983FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F4A7401CF49083001983FD /* MyGigyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGigyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F4A7441CF49083001983FD /* MyGigyaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGigyaUITests.m; sourceTree = "<group>"; };
+		D7F4A7461CF49083001983FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F4A7191CF49082001983FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A133A71E9972F3009F3A7F /* Social.framework in Frameworks */,
+				68A133A51E9972E9009F3A7F /* Accounts.framework in Frameworks */,
+				68279E681E0971A20045A342 /* SafariServices.framework in Frameworks */,
+				68279E661E09719C0045A342 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F4A7321CF49082001983FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F4A73D1CF49083001983FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6854EEC01F583963000AD79D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68C2141C1DCF6AEC00B001C5 /* GigyaPluginViewController.h */,
+				68C2141D1DCF6AEC00B001C5 /* GigyaPluginViewController.m */,
+				68C2141F1DCF6B9100B001C5 /* GigyaWebBridgeViewController.h */,
+				68C214201DCF6B9100B001C5 /* GigyaWebBridgeViewController.m */,
+				68C2142E1DCFB48900B001C5 /* GigyaNativeViewController.h */,
+				68C2142F1DCFB48900B001C5 /* GigyaNativeViewController.m */,
+				68C2142B1DCF826600B001C5 /* ContentViewController.h */,
+				68C2142C1DCF826600B001C5 /* ContentViewController.m */,
+				68C214251DCF6E9E00B001C5 /* LandingTabBarController.h */,
+				68C214261DCF6E9E00B001C5 /* LandingTabBarController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		686934AF1DC356C20000AE18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A133A61E9972F3009F3A7F /* Social.framework */,
+				68A133A41E9972E9009F3A7F /* Accounts.framework */,
+				68279E671E0971A20045A342 /* SafariServices.framework */,
+				68279E651E09719C0045A342 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68C2141B1DCF5C4A00B001C5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				68A133A21E995DE4009F3A7F /* london.jpg */,
+				68A133A01E9959C4009F3A7F /* button_login2.png */,
+				68A1339E1E995753009F3A7F /* google2.png */,
+				68A133951E995475009F3A7F /* facebook-logo-png-20.png */,
+				68A133961E995475009F3A7F /* linkedin2.png */,
+				68A133971E995475009F3A7F /* twitter.png */,
+				68136D2C1DD136B900FFAB93 /* Gestures@2x.png */,
+				68136D2D1DD136B900FFAB93 /* Players@2x.png */,
+				68C214191DCF5C3A00B001C5 /* G_256.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D7F4A7131CF49082001983FD = {
+			isa = PBXGroup;
+			children = (
+				D7F4A71E1CF49082001983FD /* MyGigya */,
+				D7F4A7381CF49082001983FD /* MyGigyaTests */,
+				D7F4A7431CF49083001983FD /* MyGigyaUITests */,
+				D7F4A71D1CF49082001983FD /* Products */,
+				686934AF1DC356C20000AE18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F4A71D1CF49082001983FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4A71C1CF49082001983FD /* MyGigya.app */,
+				D7F4A7351CF49082001983FD /* MyGigyaTests.xctest */,
+				D7F4A7401CF49083001983FD /* MyGigyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F4A71E1CF49082001983FD /* MyGigya */ = {
+			isa = PBXGroup;
+			children = (
+				6854EEC01F583963000AD79D /* ViewControllers */,
+				68C2141B1DCF5C4A00B001C5 /* Images */,
+				D7F4A7221CF49082001983FD /* AppDelegate.h */,
+				D7F4A7231CF49082001983FD /* AppDelegate.m */,
+				68C214281DCF6F1E00B001C5 /* GigyaAccountManagement.h */,
+				68C214291DCF6F1E00B001C5 /* GigyaAccountManagement.m */,
+				6854EEC11F583A3A000AD79D /* KeychainHelper.h */,
+				6854EEC21F583A3A000AD79D /* KeychainHelper.m */,
+				D7F4A7281CF49082001983FD /* Main.storyboard */,
+				D7F4A72D1CF49082001983FD /* LaunchScreen.storyboard */,
+				D7F4A7301CF49082001983FD /* Info.plist */,
+				686934C21DC36B340000AE18 /* MyGigya.entitlements */,
+				68A133AA1E998D6F009F3A7F /* Images.xcassets */,
+				D7F4A71F1CF49082001983FD /* Supporting Files */,
+			);
+			path = MyGigya;
+			sourceTree = "<group>";
+		};
+		D7F4A71F1CF49082001983FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4A7201CF49082001983FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7F4A7381CF49082001983FD /* MyGigyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4A7391CF49082001983FD /* MyGigyaTests.m */,
+				D7F4A73B1CF49082001983FD /* Info.plist */,
+			);
+			path = MyGigyaTests;
+			sourceTree = "<group>";
+		};
+		D7F4A7431CF49083001983FD /* MyGigyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4A7441CF49083001983FD /* MyGigyaUITests.m */,
+				D7F4A7461CF49083001983FD /* Info.plist */,
+			);
+			path = MyGigyaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F4A71B1CF49082001983FD /* MyGigya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F4A7491CF49083001983FD /* Build configuration list for PBXNativeTarget "MyGigya" */;
+			buildPhases = (
+				D7F4A7181CF49082001983FD /* Sources */,
+				D7F4A7191CF49082001983FD /* Frameworks */,
+				D7F4A71A1CF49082001983FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGigya;
+			productName = MyGigya;
+			productReference = D7F4A71C1CF49082001983FD /* MyGigya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7F4A7341CF49082001983FD /* MyGigyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F4A74C1CF49083001983FD /* Build configuration list for PBXNativeTarget "MyGigyaTests" */;
+			buildPhases = (
+				D7F4A7311CF49082001983FD /* Sources */,
+				D7F4A7321CF49082001983FD /* Frameworks */,
+				D7F4A7331CF49082001983FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F4A7371CF49082001983FD /* PBXTargetDependency */,
+			);
+			name = MyGigyaTests;
+			productName = MyGigyaTests;
+			productReference = D7F4A7351CF49082001983FD /* MyGigyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7F4A73F1CF49083001983FD /* MyGigyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F4A74F1CF49083001983FD /* Build configuration list for PBXNativeTarget "MyGigyaUITests" */;
+			buildPhases = (
+				D7F4A73C1CF49083001983FD /* Sources */,
+				D7F4A73D1CF49083001983FD /* Frameworks */,
+				D7F4A73E1CF49083001983FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F4A7421CF49083001983FD /* PBXTargetDependency */,
+			);
+			name = MyGigyaUITests;
+			productName = MyGigyaUITests;
+			productReference = D7F4A7401CF49083001983FD /* MyGigyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F4A7141CF49082001983FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gheerish Bansoodeb";
+				TargetAttributes = {
+					D7F4A71B1CF49082001983FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T48CNFXFQH;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					D7F4A7341CF49082001983FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D7F4A71B1CF49082001983FD;
+					};
+					D7F4A73F1CF49083001983FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D7F4A71B1CF49082001983FD;
+					};
+				};
+			};
+			buildConfigurationList = D7F4A7171CF49082001983FD /* Build configuration list for PBXProject "MyGigya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7F4A7131CF49082001983FD;
+			productRefGroup = D7F4A71D1CF49082001983FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F4A71B1CF49082001983FD /* MyGigya */,
+				D7F4A7341CF49082001983FD /* MyGigyaTests */,
+				D7F4A73F1CF49083001983FD /* MyGigyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F4A71A1CF49082001983FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F4A72F1CF49082001983FD /* LaunchScreen.storyboard in Resources */,
+				68136D2E1DD136B900FFAB93 /* Gestures@2x.png in Resources */,
+				D7F4A72A1CF49082001983FD /* Main.storyboard in Resources */,
+				68A1339B1E995475009F3A7F /* twitter.png in Resources */,
+				68A133A11E9959C4009F3A7F /* button_login2.png in Resources */,
+				68A1339A1E995475009F3A7F /* linkedin2.png in Resources */,
+				68A133A31E995DE4009F3A7F /* london.jpg in Resources */,
+				68A133991E995475009F3A7F /* facebook-logo-png-20.png in Resources */,
+				68C2141A1DCF5C3A00B001C5 /* G_256.png in Resources */,
+				68A133AB1E998D6F009F3A7F /* Images.xcassets in Resources */,
+				68A1339F1E995753009F3A7F /* google2.png in Resources */,
+				68136D2F1DD136B900FFAB93 /* Players@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F4A7331CF49082001983FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F4A73E1CF49083001983FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F4A7181CF49082001983FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C2141E1DCF6AEC00B001C5 /* GigyaPluginViewController.m in Sources */,
+				68C214211DCF6B9100B001C5 /* GigyaWebBridgeViewController.m in Sources */,
+				D7F4A7241CF49082001983FD /* AppDelegate.m in Sources */,
+				68C2142D1DCF826600B001C5 /* ContentViewController.m in Sources */,
+				D7F4A7211CF49082001983FD /* main.m in Sources */,
+				68C214301DCFB48900B001C5 /* GigyaNativeViewController.m in Sources */,
+				68C2142A1DCF6F1E00B001C5 /* GigyaAccountManagement.m in Sources */,
+				68C214271DCF6E9E00B001C5 /* LandingTabBarController.m in Sources */,
+				6854EEC31F583A3A000AD79D /* KeychainHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F4A7311CF49082001983FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F4A73A1CF49082001983FD /* MyGigyaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F4A73C1CF49083001983FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F4A7451CF49083001983FD /* MyGigyaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7F4A7371CF49082001983FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F4A71B1CF49082001983FD /* MyGigya */;
+			targetProxy = D7F4A7361CF49082001983FD /* PBXContainerItemProxy */;
+		};
+		D7F4A7421CF49083001983FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F4A71B1CF49082001983FD /* MyGigya */;
+			targetProxy = D7F4A7411CF49083001983FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7F4A7281CF49082001983FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F4A7291CF49082001983FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7F4A72D1CF49082001983FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F4A72E1CF49082001983FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F4A7471CF49083001983FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7F4A7481CF49083001983FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7F4A74A1CF49083001983FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MyGigya/MyGigya.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = T48CNFXFQH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.12.0",
+				);
+				INFOPLIST_FILE = MyGigya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					$inherited,
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigya.CrossAppSSO2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7F4A74B1CF49083001983FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MyGigya/MyGigya.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = T48CNFXFQH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.12.0",
+				);
+				INFOPLIST_FILE = MyGigya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					$inherited,
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gigya.CrossAppSSO2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7F4A74D1CF49083001983FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyGigyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gigya.MyGigyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGigya.app/MyGigya";
+			};
+			name = Debug;
+		};
+		D7F4A74E1CF49083001983FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyGigyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gigya.MyGigyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGigya.app/MyGigya";
+			};
+			name = Release;
+		};
+		D7F4A7501CF49083001983FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyGigyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gigya.MyGigyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyGigya;
+			};
+			name = Debug;
+		};
+		D7F4A7511CF49083001983FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyGigyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gigya.MyGigyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyGigya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F4A7171CF49082001983FD /* Build configuration list for PBXProject "MyGigya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F4A7471CF49083001983FD /* Debug */,
+				D7F4A7481CF49083001983FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F4A7491CF49083001983FD /* Build configuration list for PBXNativeTarget "MyGigya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F4A74A1CF49083001983FD /* Debug */,
+				D7F4A74B1CF49083001983FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F4A74C1CF49083001983FD /* Build configuration list for PBXNativeTarget "MyGigyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F4A74D1CF49083001983FD /* Debug */,
+				D7F4A74E1CF49083001983FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F4A74F1CF49083001983FD /* Build configuration list for PBXNativeTarget "MyGigyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F4A7501CF49083001983FD /* Debug */,
+				D7F4A7511CF49083001983FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7F4A7141CF49082001983FD /* Project object */;
+}

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Pws-4i-g3v">
+<device id="retina4_7" orientation="portrait">
+<adaptation id="fullscreen"/>
+</device>
+<dependencies>
+<deployment identifier="iOS"/>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+</dependencies>
+<scenes>
+<!--Plugin View-->
+<scene sceneID="5RH-hk-O3R">
+<objects>
+<viewController title="Plugin View" id="mVE-f5-jWw" customClass="GigyaPluginViewController" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="fqC-gV-zfw"/>
+<viewControllerLayoutGuide type="bottom" id="2Ug-jS-cHw"/>
+</layoutGuides>
+<view key="view" contentMode="scaleToFill" id="WBY-RF-P0z">
+<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+</view>
+<tabBarItem key="tabBarItem" title="Gigya Plugin View" image="Gestures.png" id="WDM-Ct-NqQ"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="nI7-OF-vEC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="-1012" y="716"/>
+</scene>
+<!--Native-->
+<scene sceneID="0St-se-TdH">
+<objects>
+<viewController id="Q20-tw-8F3" customClass="GigyaNativeViewController" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="eEE-bU-ofg"/>
+<viewControllerLayoutGuide type="bottom" id="etG-8V-Wip"/>
+</layoutGuides>
+<view key="view" contentMode="scaleToFill" id="gbj-AT-Hxj">
+<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<subviews>
+<imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="london.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cWq-CL-2f5">
+<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+</imageView>
+<view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IbB-KM-tsk">
+<rect key="frame" x="0.0" y="28" width="375" height="590"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quickly log in with your social network:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFn-Wl-Qrd">
+<rect key="frame" x="8" y="445" width="359" height="29"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+<color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+<nil key="highlightedColor"/>
+</label>
+<view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ge1-vX-3c6">
+<rect key="frame" x="15" y="490" width="344" height="100"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<subviews>
+<button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1f-da-rnv">
+<rect key="frame" x="88" y="0.0" width="80" height="80"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<state key="normal" backgroundImage="google2.png"/>
+<connections>
+<action selector="googleTapped:" destination="Q20-tw-8F3" eventType="touchUpInside" id="qL6-HR-Ifj"/>
+</connections>
+</button>
+<button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ss6-7e-WkN">
+<rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<state key="normal" backgroundImage="facebook-logo-png-20.png"/>
+<connections>
+<action selector="fbTapped:" destination="Q20-tw-8F3" eventType="touchUpInside" id="vLV-Xb-hnj"/>
+</connections>
+</button>
+<button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsY-zg-g1o">
+<rect key="frame" x="176" y="0.0" width="80" height="80"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<state key="normal" backgroundImage="twitter.png"/>
+<connections>
+<action selector="twitterTapped:" destination="Q20-tw-8F3" eventType="touchUpInside" id="IqM-Ms-1o3"/>
+</connections>
+</button>
+<button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kA-wb-16F">
+<rect key="frame" x="264" y="-1" width="80" height="80"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<state key="normal" backgroundImage="linkedin2.png"/>
+<connections>
+<action selector="linkedTapped:" destination="Q20-tw-8F3" eventType="touchUpInside" id="BBd-qq-snP"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+</view>
+<view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="spC-xT-z5P">
+<rect key="frame" x="0.0" y="23" width="375" height="274"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<subviews>
+<textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L8O-Y2-UKN">
+<rect key="frame" x="36" y="85" width="302" height="30"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<nil key="textColor"/>
+<fontDescription key="fontDescription" type="system" pointSize="14"/>
+<textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+</textField>
+<view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hwN-DU-gdP" userLabel="Separator 1px">
+<rect key="frame" x="36" y="112" width="262.5" height="1"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFb-98-DEh">
+<rect key="frame" x="36" y="47" width="302" height="30"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<nil key="textColor"/>
+<fontDescription key="fontDescription" type="system" pointSize="14"/>
+<textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+</textField>
+<view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iNS-m9-OR9" userLabel="Separator 1px">
+<rect key="frame" x="36" y="72" width="262.5" height="1"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eni-qk-CLN" userLabel="Separator 1px">
+<rect key="frame" x="36" y="156" width="262.5" height="1"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</view>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log in with your email and password:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwS-Ui-naj">
+<rect key="frame" x="-8" y="0.0" width="375" height="29"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+<color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+<nil key="highlightedColor"/>
+</label>
+<textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tdb-dY-hy0">
+<rect key="frame" x="36" y="128" width="140" height="30"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<nil key="textColor"/>
+<fontDescription key="fontDescription" type="system" pointSize="14"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sbs-hl-mks">
+<rect key="frame" x="180" y="128" width="140" height="30"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<nil key="textColor"/>
+<fontDescription key="fontDescription" type="system" pointSize="14"/>
+<textInputTraits key="textInputTraits"/>
+</textField>
+<switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ti-Pe-Ezu">
+<rect key="frame" x="258" y="166" width="51" height="31"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<color key="onTintColor" red="0.041967622935771942" green="0.31007149815559387" blue="0.97261625528335571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</switch>
+<label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accept Terms and Conditions" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3F-oL-x59">
+<rect key="frame" x="8" y="171" width="242" height="21"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" pointSize="12"/>
+<color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+<nil key="highlightedColor"/>
+</label>
+<button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjC-4q-Bg8">
+<rect key="frame" x="36" y="205" width="271" height="42"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<state key="normal" title="LOGIN"/>
+<connections>
+<action selector="nativeTapped:" destination="Q20-tw-8F3" eventType="touchUpInside" id="2WW-wO-gNd"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+</view>
+<button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgd-UN-Icu">
+<rect key="frame" x="8" y="280" width="213" height="30"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<state key="normal" title="Don't have an account?"/>
+<connections>
+<action selector="registerTapped:" destination="Q20-tw-8F3" eventType="touchUpInside" id="mtj-R2-iOf"/>
+</connections>
+</button>
+<button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdp-wX-jbq">
+<rect key="frame" x="240" y="280" width="127" height="30"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<state key="normal" title="Forgot password?"/>
+<connections>
+<action selector="forgotPwdTapped:" destination="Q20-tw-8F3" eventType="touchUpInside" id="EFh-0L-dPT"/>
+</connections>
+</button>
+<label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMq-H2-6Hw">
+<rect key="frame" x="15" y="312" width="359" height="88"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+<color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+<nil key="highlightedColor"/>
+</label>
+</subviews>
+<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+</view>
+</subviews>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</view>
+<tabBarItem key="tabBarItem" title="Native" image="Players.png" id="8A1-tf-cy0"/>
+<connections>
+<outlet property="btnRegister" destination="kgd-UN-Icu" id="sC7-hS-Z5s"/>
+<outlet property="contView" destination="IbB-KM-tsk" id="hMS-Nb-oE6"/>
+<outlet property="emailField" destination="KFb-98-DEh" id="hHO-xK-K8w"/>
+<outlet property="errorField" destination="fMq-H2-6Hw" id="23A-Bj-XqC"/>
+<outlet property="firstNameField" destination="tdb-dY-hy0" id="uXJ-UR-d9A"/>
+<outlet property="forgotPwBtn" destination="wdp-wX-jbq" id="bhK-Jo-cLL"/>
+<outlet property="lastNameField" destination="sbs-hl-mks" id="UQa-zL-q4c"/>
+<outlet property="loginBtn" destination="hjC-4q-Bg8" id="J3i-76-m75"/>
+<outlet property="passwordField" destination="L8O-Y2-UKN" id="5xl-0W-Rlc"/>
+<outlet property="pwdSeparator" destination="hwN-DU-gdP" id="1NC-HE-I8s"/>
+<outlet property="tncField" destination="3Ti-Pe-Ezu" id="B5Q-4a-uWo"/>
+<outlet property="tncLabel" destination="T3F-oL-x59" id="E5Q-5G-RpL"/>
+<outlet property="uiSeperator" destination="Eni-qk-CLN" id="kO3-67-fKa"/>
+</connections>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="Dy2-LG-J95" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="-194.40000000000001" y="715.59220389805103"/>
+</scene>
+<!--Main Screen-->
+<scene sceneID="w0W-5z-crn">
+<objects>
+<viewController storyboardIdentifier="ContentViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qWY-wY-Wsj" customClass="ContentViewController" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="fmx-EU-gM9"/>
+<viewControllerLayoutGuide type="bottom" id="KSX-4t-nrz"/>
+</layoutGuides>
+<view key="view" contentMode="scaleToFill" id="ktp-Qi-SGO">
+<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<subviews>
+<activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Scn-WN-K3i">
+<rect key="frame" x="177" y="323" width="20" height="20"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+</activityIndicatorView>
+<webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pNM-XO-1xx">
+<rect key="frame" x="0.0" y="20" width="375" height="623"/>
+<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</webView>
+<toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aha-yL-KgA">
+<rect key="frame" x="0.0" y="623" width="375" height="44"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+<items>
+<barButtonItem title="View Profile" id="swS-6u-vfN">
+<connections>
+<action selector="viewProfileTapped:" destination="qWY-wY-Wsj" id="J4S-Yy-KVx"/>
+</connections>
+</barButtonItem>
+<barButtonItem title="Comments" id="x1b-s6-kPM">
+<connections>
+<action selector="commentsTapped:" destination="qWY-wY-Wsj" id="pg2-pB-Eg4"/>
+</connections>
+</barButtonItem>
+<barButtonItem title="React" id="NvY-bk-HBM">
+<connections>
+<action selector="reactTapped:" destination="qWY-wY-Wsj" id="qh4-Q3-RP2"/>
+</connections>
+</barButtonItem>
+<barButtonItem title="Logout" id="nCx-1s-HU7">
+<connections>
+<action selector="logoutTapped:" destination="qWY-wY-Wsj" id="9ug-Uy-jHj"/>
+</connections>
+</barButtonItem>
+</items>
+</toolbar>
+</subviews>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</view>
+<navigationItem key="navigationItem" title="Main Screen" id="toY-8N-t1J">
+<barButtonItem key="backBarButtonItem" title="Logout" id="3r7-bP-DGh"/>
+</navigationItem>
+<connections>
+<outlet property="webView" destination="pNM-XO-1xx" id="Y3w-GO-lZD"/>
+</connections>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="fvB-2X-p0i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="182" y="-179"/>
+</scene>
+<!--Web-Bridge-->
+<scene sceneID="5E5-nt-yMV">
+<objects>
+<viewController title="Web-Bridge" id="kUf-rz-C3J" customClass="GigyaWebBridgeViewController" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="E6k-Do-jnr"/>
+<viewControllerLayoutGuide type="bottom" id="kiw-zo-UnL"/>
+</layoutGuides>
+<view key="view" contentMode="scaleToFill" id="lhz-13-B87">
+<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</view>
+<tabBarItem key="tabBarItem" title="WebBridge" image="Players.png" id="6SU-rL-l7s"/>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="ugl-VN-5j1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="-1780" y="738"/>
+</scene>
+<!--Landing Tab Bar Controller-->
+<scene sceneID="LEX-RY-JoO">
+<objects>
+<tabBarController id="Pws-4i-g3v" customClass="LandingTabBarController" sceneMemberID="viewController">
+<tabBar key="tabBar" contentMode="scaleToFill" id="R8d-Nt-Dgt">
+<rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+<autoresizingMask key="autoresizingMask"/>
+<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+</tabBar>
+<connections>
+<segue destination="xI0-uD-Uda" kind="show" identifier="showProfileSegue" id="tNc-ji-CU5"/>
+<segue destination="Q20-tw-8F3" kind="relationship" relationship="viewControllers" id="C3s-JO-lK7"/>
+<segue destination="mVE-f5-jWw" kind="relationship" relationship="viewControllers" id="ey4-v2-MF0"/>
+<segue destination="kUf-rz-C3J" kind="relationship" relationship="viewControllers" id="bXV-o5-a4P"/>
+</connections>
+</tabBarController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="tmg-ZX-pHI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="-1697" y="-179"/>
+</scene>
+<!--Navigation Controller-->
+<scene sceneID="gfh-sx-DuO">
+<objects>
+<navigationController automaticallyAdjustsScrollViewInsets="NO" id="xI0-uD-Uda" sceneMemberID="viewController">
+<toolbarItems/>
+<navigationItem key="navigationItem" id="2SJ-b2-eFm"/>
+<navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cCa-mq-8vs">
+<rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+<autoresizingMask key="autoresizingMask"/>
+</navigationBar>
+<nil name="viewControllers"/>
+<connections>
+<segue destination="qWY-wY-Wsj" kind="relationship" relationship="rootViewController" id="pQj-kh-bun"/>
+</connections>
+</navigationController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="YOm-HW-v3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="-754" y="-179"/>
+</scene>
+</scenes>
+<resources>
+<image name="Gestures.png" width="30" height="30"/>
+<image name="Players.png" width="30" height="30"/>
+<image name="facebook-logo-png-20.png" width="80" height="80"/>
+<image name="google2.png" width="80" height="80"/>
+<image name="linkedin2.png" width="80" height="77"/>
+<image name="london.jpg" width="640" height="1136"/>
+<image name="twitter.png" width="80" height="81"/>
+</resources>
+</document>
