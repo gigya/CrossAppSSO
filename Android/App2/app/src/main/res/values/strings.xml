@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="sharedUserLabel">sharedUserLabel</string>
+
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">My Message</string>
+
+
+    <!--Values to be customised-->
+    <string name="gigya_api_key">3_aGln_MuaZZzUPIvs4HDZ81Leu1kDyUdXCXbIH5DvX61wWAg30pfsiAQ4GQjNv8iM</string>
+    <string name="api_domain">eu1</string>
+    <string name="facebook_app_id">626108487583023</string>
+
+
+
+</resources>

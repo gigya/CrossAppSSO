@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gigya-sdk-3.3.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/gigya-sdk-3.3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="com.gigya"
+    android:sharedUserLabel="@string/sharedUserLabel"
+    package="com.example.davidkrief.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.gigya.socialize.android.ui.HostActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.gigya.socialize.android.login.providers.WebLoginActivity"
+            android:allowTaskReparenting="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="gsapi"
+                        android:scheme="com.example.davidkrief.myapplication" />
+            </intent-filter>
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmailSigninAndLinkingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SignUpNativeModeActivity"
+            android:parentActivityName=".EmailSigninAndLinkingActivity" />
+        <activity
+            android:name=".SignUpScreenSetModeActivity"
+            android:parentActivityName=".EmailSigninAndLinkingActivity" />
+        <activity
+            android:name=".LoggedActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LinkingActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true"></activity>
+
+        <activity
+            android:name=".SignUpWebbridgeActivity"
+            android:parentActivityName=".EmailSigninAndLinkingActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5b41cdc2c53e0b84404c6c3cd1bba3a2a7c666b">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4ced4dd3a7cec1c78c7678ba487dd789ff1bd05d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7eaafa785154d94cfbcefac02bd1252f751ab04e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3/app/libs/gigya-sdk-3.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01228abb6ac6e60a84f5c48e654a253e7feb4108">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3/app/build/intermediates/transforms/dex/debug/folders/1000/2/gigya-sdk-3.3.6_f8c0c77ef2aa125068eed1f068d67b721491bd63/classes.dex" />
+    </item>
+
+</items>

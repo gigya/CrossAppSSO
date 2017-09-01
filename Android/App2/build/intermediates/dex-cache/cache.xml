@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/libs/gigya-sdk-3.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01228abb6ac6e60a84f5c48e654a253e7feb4108">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/transforms/dex/debug/folders/1000/2/gigya-sdk-3.3.6_b98712e4664786aea684ce092a62882d8b29e9d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/.android/build-cache/dc1a1a545b238b4e2d219a759726bae54c964a3b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_caa13358bb2363ceb40872edb3d5ca09468dbe78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_def21adc2b92dc3f5a5a3a3821d7d038ed6b9977/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0df91c26923f9eae3c6767cf19a982e4d0e6c13">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5d623d26079b044bc87529274ce168fcc90675c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/.android/build-cache/02b7392019815af546323b7dd9ec7be2f326af46/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_567a3ca5f8c1d8365aada91aa211d7e85be638e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/victornavarro/.android/build-cache/ff395739f64d0ebac9957caf8bfaf7fb2abdcc6e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e0e8918eb74e3ee9e82eef6430a4359b2b577d3">
+        <dex dex="/Users/victornavarro/Desktop/SSO APPS/AndroidDemo-master 3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f211b13cd5c9b42d45e3149d06d88ba606bf9abd/classes.dex" />
+    </item>
+
+</items>
