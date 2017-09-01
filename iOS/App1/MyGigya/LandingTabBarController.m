@@ -7,9 +7,9 @@
 //
 
 #import "LandingTabBarController.h"
-#import "GigyaAccountManagement.h"
 #import <GigyaSDK/Gigya.h>
 #import "ContentViewController.h"
+#import "AppDelegate.h"
 
 @interface LandingTabBarController ()
 
@@ -20,13 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    GigyaAccountManagement *gigyaAccount = [[GigyaAccountManagement alloc]init];
-    gigyaAccount.landingView = self;
-    
-    //Establish Gigya Accounts wrapper
-    [Gigya setAccountsDelegate:gigyaAccount];
-    [gigyaAccount validateGigyaSession];
+    app.gigyaAccount.landingView = self;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <GigyaSDK/Gigya.h>
+#import "GigyaAccountManagement.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (strong, nonatomic) UIWindow *window;
 @property (strong,nonatomic) GSAccount *userAccount;
-
+@property (strong,nonatomic) GigyaAccountManagement *gigyaAccount;
 @end
 
 extern AppDelegate *app;

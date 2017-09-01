@@ -34,12 +34,16 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
      application:application
      launchOptions:launchOptions
      APIDomain:@"eu1.gigya.com"];
-    
+    self.gigyaAccount = [[GigyaAccountManagement alloc]init];
+    //Establish Gigya Accounts wrapper
+    [Gigya setAccountsDelegate:self.gigyaAccount];
+    [self.gigyaAccount validateGigyaSession];
     return YES;
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     [Gigya handleDidBecomeActive];
+    [self.gigyaAccount validateGigyaSession];
 }
 
 - (BOOL)application:(UIApplication *)app
