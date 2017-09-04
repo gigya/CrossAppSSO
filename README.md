@@ -1,5 +1,7 @@
 ## About this project
 
+This code repository is provided on an "as-is" basis for demonstration purposes. For further information on the Gigya platform and APIs, please reference http://developers.gigya.com
+
 This project shows a custom implementation on how Single-Sign-On (SSO) can be achieved from one app to another, leveraging Gigya's iOS SDK.<br/>
 
 ## Demo features<br/>
