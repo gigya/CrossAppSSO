@@ -4,6 +4,9 @@ This code repository is provided on an "as-is" basis for demonstration purposes.
 
 This project shows a custom implementation on how Single-Sign-On (SSO) can be achieved from one app to another, leveraging Gigya's iOS SDK.<br/>
 
+This project is not officially Gigya, therefore, PLEASE DO NOT CONTACT GIGYA SUPPORT ABOUT IT.
+
+
 ## Demo features<br/>
 -> Keychain implementation for Gigya SSO<br/>
 -> Session management through Gigya SDK<br/>
